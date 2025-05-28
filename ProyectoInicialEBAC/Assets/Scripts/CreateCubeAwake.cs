@@ -15,9 +15,10 @@ public class CreateCubeAwake : MonoBehaviour
     {
         
     }
-     void Awake()
+
+    void Awake()
     {
-      GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
         cube.transform.position = Vector3.zero;
     }
 }

@@ -15,9 +15,10 @@ public class CapsuleColor : MonoBehaviour
     {
         
     }
-     void FixedUpdate()
+
+    void FixedUpdate()
     {
-        Color RandomColor = new Color(Random.value, Random.value, Random.value);
-        GetComponent<MeshRenderer>().material.color = RandomColor;
+        Color randomColor = new Color(Random.value, Random.value, Random.value);
+        GetComponent<MeshRenderer>().material.color = randomColor;
     }
 }

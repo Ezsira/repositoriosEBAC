@@ -15,7 +15,8 @@ public class CubeColor : MonoBehaviour
     {
         
     }
-     void Awake()
+
+    void Awake()
     {
         Color randomColor = new Color(Random.value, Random.value, Random.value);
         GetComponent<MeshRenderer>().material.color = randomColor;

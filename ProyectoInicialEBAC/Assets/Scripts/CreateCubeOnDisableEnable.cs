@@ -15,15 +15,16 @@ public class CreateCubeOnDisableEnable : MonoBehaviour
     {
         
     }
+
+    void OnEnable()
+    {
+        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        cube.transform.position = Vector3.up * 2;
+    }
+
     void OnDisable()
     {
         GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
         cube.transform.position = Vector3.down * 2;
-    }
-
-     void OnEnable()
-    {
-        GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cube.transform.position = Vector3.up * 2;
     }
 }
