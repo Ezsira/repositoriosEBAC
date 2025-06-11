@@ -22,11 +22,11 @@ public class EjerciciosVariablesParte2 : MonoBehaviour
         if (int.TryParse(valor1, out numero1) && int.TryParse(valor2, out numero2))
         {
             int suma = numero1 + numero2;
-            Debug.Log("Ejercicio 1 - Suma: " + suma);
+            Debug.Log("Parte 1 - Suma: " + suma);
         }
         else
         {
-            Debug.Log("Ejercicio 1 - Error al convertir las cadenas a números.");
+            Debug.Log("Parte 1 - Error al convertir las cadenas a números.");
         }
     }
 
@@ -44,22 +44,22 @@ public class EjerciciosVariablesParte2 : MonoBehaviour
             }
         }
 
-        Debug.Log("Ejercicio 2 - Caracteres en índices pares: " + resultado);
+        Debug.Log("Parte 2 - Caracteres en índices pares: " + resultado);
     }
 
    
     void Parte3()
     {
-        string oracion = "Esta es una oración de ejemplo";
+        string oracion = "Hola Mundo";
 
         if (oracion.Length > 5)
         {
             string resultado = oracion.Substring(5);
-            Debug.Log("Ejercicio 3 - Oración sin los primeros 5 caracteres: " + resultado);
+            Debug.Log("Parte 3 - Oración sin los primeros 5 caracteres: " + resultado);
         }
         else
         {
-            Debug.Log("Ejercicio 3 - La oración es demasiado corta.");
+            Debug.Log("Parte 3 - La oración es demasiado corta.");
         }
     }
 
