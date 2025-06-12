@@ -25,7 +25,7 @@ public class EjerciciosDeCiclosYArreglos : MonoBehaviour
             Debug.Log($"arr3[{i}] = {arr3[i]} (arr1[{i}]={arr1[i]} + arr2[{i}]={arr2[i]})");
         }
 
-        string[] palabras = new string[] { "Hola", "mundo", "esto", "es", "una", "oración." };
+        string[] palabras = new string[] { "Prueba", "para", "la", "tarea", "de", "EBAC." };
         string oracion = "";
 
         foreach (string palabra in palabras)
