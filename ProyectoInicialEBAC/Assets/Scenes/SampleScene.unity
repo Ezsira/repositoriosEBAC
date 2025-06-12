@@ -157,7 +157,7 @@ MonoBehaviour:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
+
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
@@ -534,7 +534,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1293380342}
-=======
+
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
@@ -612,4 +612,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1942509433}
->>>>>>> origin/main
+
